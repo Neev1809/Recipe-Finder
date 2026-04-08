@@ -1,1 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
+nav {
+    position: fixed;
+    background-color: rgb(22, 166, 118);
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    display: flex;
+    padding: 15px;
+}
+
+input {
+  width: 150px;
+  min-height: 25px;
+  border-radius: 5px;
+  border-color: black;
+  background-color: rgb(165, 254, 224);
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+h1{
+  text-align: center;
+}
+
+.btn {
+  margin-top: 0px;
+  padding: 5px;
+  border : none;
+  background-color: rgb(128, 239, 202);
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+button {
+  box-shadow: 2px 2px 5px gray;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn img {
+  width: 175px;
+  height: 175px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.home h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+section {
+  padding: 75px;
+}
