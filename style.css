@@ -64,10 +64,10 @@ button {
 }
 
 .btn img {
-  width: 175px;
+  width: 250px;
   height: 175px;
+  border-radius: 50%;
 }
-
 .buttons {
   display: flex;
   justify-content: center;
