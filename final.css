@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    background-color: rgb(22, 166, 118);
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    display: flex;
+    padding: 15px;
+}
+
+input {
+  width: 150px;
+  min-height: 25px;
+  border-radius: 5px;
+  border-color: black;
+  background-color: rgb(165, 254, 224);
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+h1{
+  text-align: center;
+}
+
+.btn {
+  margin-top: 0px;
+  border : none;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  box-shadow: 2px 2px 5px gray;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+  color: rgb(16, 249, 171);
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn img {
+  width: 250px;
+  height: 175px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.home h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+section {
+  padding: 75px;
+}
+
+footer {
+  background-color: rgb(22, 166, 118);
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+p {
+  font-size: medium;
+} 
+
+.description {
+  text-align: center;
+  font-size: x-large;
+}
+
+.container {
+    margin: 0 75px;
+    background-color: rgba(255, 255, 255, 0.907);
+}
+
+.recipes {
+  font-size: 20px;
+}
+
+.recipes h2 {
+  text-align: left;
+}
