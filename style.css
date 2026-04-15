@@ -4,13 +4,22 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #6bad66;
+    font-family: 'Poppins', sans-serif;
+}
+
+hr {
+  height: 1.5px;
+  background-color: #363836;
+  border: none;
+}
+
 nav {
     position: fixed;
-    background-color: rgb(22, 166, 118);
-    justify-content: center;
+    background-color: white;;
     gap: 30px;
     width: 100%;
-    display: flex;
     padding: 15px;
 }
 
@@ -28,19 +37,25 @@ nav a{
   font-size: 20px;
 }
 
+nav a :hover{
+  text-decoration: underline;
+  
+}
+
 h1{
   text-align: center;
 }
 
 .btn {
   margin-top: 0px;
-  padding: 5px;
   border : none;
-  background-color: rgb(128, 239, 202);
+  background-color: rgb(255, 255, 255);
   color: black;
   cursor: pointer;
-  border-radius: 5px;
   transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 button {
@@ -49,12 +64,8 @@ button {
 
 .btn:hover {
   transform: scale(1.1);
-}
-
-.btn {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-decoration: underline;
+  color: rgb(16, 249, 171);
 }
 
 .card {
@@ -66,8 +77,8 @@ button {
 .btn img {
   width: 250px;
   height: 175px;
-  border-radius: 50%;
 }
+
 .buttons {
   display: flex;
   justify-content: center;
@@ -93,4 +104,33 @@ a{
 
 section {
   padding: 75px;
+}
+
+footer {
+  background-color: #414141;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+p {
+  font-size: medium;
+} 
+
+.description {
+  text-align: center;
+  font-size: x-large;
+}
+
+.container {
+    margin: 0 75px;
+    background-color: rgba(255, 255, 255, 0.907);
+}
+
+.recipes {
+  font-size: 20px;
+}
+
+.recipes h2 {
+  text-align: left;
 }
