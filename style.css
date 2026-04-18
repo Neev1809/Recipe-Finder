@@ -184,3 +184,14 @@ footer {
   padding-top: 190px;
   color: white;
 }
+
+.diet {
+  height: 100vh;
+  background-image: url(BG-Diet.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 190px;
+  color: black;
+}
