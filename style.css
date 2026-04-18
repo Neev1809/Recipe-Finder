@@ -195,3 +195,37 @@ footer {
   padding-top: 190px;
   color: black;
 }
+.dessert{
+   height: 100vh;
+  background-image: url(des.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  padding-top: 190px;
+  color: white;
+}
+
+.sides {
+   height: 100vh;
+  background-image: url(sid.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  padding-top: 190px;
+  color: white;
+
+  
+}
+.mocktails{
+  height: 100vh;
+  background-image: url(moc.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  padding-top: 190px;
+  color: white;
+
+}
