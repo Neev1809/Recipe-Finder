@@ -265,3 +265,14 @@ footer {
   padding-top: 190px;
   color: white;
 }
+
+.Meals {
+  height: 100vh;
+  background-image: url(BG-Meals.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  padding-top: 190px;
+  color: white;
+}
