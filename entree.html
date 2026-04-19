@@ -9,27 +9,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
-<body>
+<background-color="lightgrey">
     <nav>
-        <div class="logo">
-            <img src="Logo.jpg" alt="Logo">
-            <b>Recipe Finder</b>
-        </div>
-        <div class="links">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </div>
-        <div class="SearchBox">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" name="Search Bar" placeholder="Search for recipe">
-        </div>
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <i class="fa-solid fa-magnifying-glass"></i> 
+        <input type="text" name="Search Bar" placeholder="Search for recipe">
     </nav>
     <div class="container">
         <section class="description">
-            <h1>Entrees</h1>
+            <h1 tex>Entrees</h1>
             <hr>
+            <br>
+            <p>
             Discover a world of flavors with our carefully curated entrées, designed to be the heart of every meal. From comforting classics to exciting global dishes, each recipe brings something special to your table. Whether you're cooking for yourself or hosting others, find the perfect main course to satisfy every craving.
+            </p>
         </section>
         <section class="card">
             <div class="buttons">
@@ -37,6 +32,8 @@
                     <button class="btn">
                         <img src="Chole.jpeg" alt="Chole">
                         <p>Chole</p>
+                        <div class="divider"></div>
+                        <p>A hearty North Indian curry made with chickpeas simmered in a rich, spiced tomato gravy. Bold, tangy flavors make it a comforting and satisfying meal, best enjoyed with rice or bhature.</p>
                         
                     </button>
                 </a>
@@ -44,12 +41,16 @@
                     <button class="btn">
                         <img src="PalakPaneer.jpeg" alt="Veg Biryani">
                         <p>Veg Biryani</p>
+                        <div class="divider"></div>
+                        <p>A fragrant rice dish layered with fresh vegetables, aromatic spices, and herbs. Every bite is rich, flavorful, and beautifully spiced, making it a complete meal on its own.</p>
                     </button>
                 </a>
                 <a href="#PalakPaneer">
                     <button class="btn">
                         <img src="VegBiryani.jpeg" alt="Palak Paneer">
                         <p>Palak Paneer</p>
+                        <div class="divider"></div>
+                        <p>A wholesome dish featuring soft paneer cubes in a smooth, vibrant spinach gravy. Lightly spiced and packed with nutrients, it’s a perfect balance of health and taste.</p>
                     </button>
                 </a>
             </div>
@@ -59,10 +60,7 @@
             <h1>Chole</h1>
             <hr>
             <br>
-            <h2><u>Description</u></h2>
-            A hearty North Indian curry made with chickpeas simmered in a rich, spiced tomato gravy. Bold, tangy flavors make it a comforting and satisfying meal, best enjoyed with rice or bhature.
-            <br>
-            <br>
+            
             <h2><u>Ingredients</u></h2>
             
             <p>
@@ -104,22 +102,52 @@
             </ul>
             </p>
             <br>
-            <h2><u>Watch this video for help:</u></h2>
+            <h4><u>Click <a href="https://www.youtube.com/watch?v=fBfOl_GBG_o" target="_blank">here</a> to see the tutorial.</u></h4>
             <br>
-            <a href="https://www.youtube.com/watch?v=fBfOl_GBG_o" target="_blank"><u>Chole Tutorial</u></a>
-            <!-- <iframe width="560" height="315" src="https://www.youtube.com/watch?v=fBfOl_GBG_o"
-                title="YouTube Video Player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+        </section>
+        <section id="VegBiryani" class="recipes">
+            <h1>Veg Biryani</h1>
+            <hr>
+            <br>
+            <h2><u>Ingredients</u></h2>
+            <ul>
+                <li>Basmati rice</li>
+                <li>Mixed vegetables (carrot, beans, peas, potato, etc.)</li>
+                <li>Onion (sliced)</li>
+                <li>Tomato</li>
+                <li>Ginger-garlic paste</li>
+                <li>Green chilies</li>
+                <li>Yogurt (curd)</li>
+                <li>Oil or ghee</li>
+                <li>Whole spices: bay leaf, cinnamon, cloves, cardamom</li>
+                <li>Spice powders: turmeric, red chili powder, garam masala or biryani masala</li>
+                <li>Fresh herbs: mint and coriander</li>
+                <li>Salt</li>
+            </ul>
+            <br>
+            <h2><u>Instructions</u></h2>
+            <ol>
+                <li>
+                    Soak basmati rice and cook it until about 70% done, while in another pan you heat oil or ghee and sauté whole spices, sliced onions, ginger-garlic paste, and mixed vegetables until slightly tender and fragrant.
+                </li>
+                <li>Add yogurt and powdered spices, cooking the mixture until it thickens and coats the vegetables well, creating a rich base for layering.</li>
+                <li>Layer the partially cooked rice over the vegetable mixture, top with fresh mint and coriander, cover, and cook on low heat (dum) so the flavors infuse and the rice finishes cooking perfectly.</li>
+            </ol>
+            <br>
+            <h2><u>Tips</u></h2>
+            <ul>
+                <li>Always use partially cooked rice before layering—never fully cooked.</li>
+                <li>Fried onions (birista) on top take it to another level.</li>
+                <li>Seal the lid (with dough or tight cover) during dum for better aroma.</li>
+            </ul>
+            <br>
+            <h4><u>Click <a href="https://www.youtube.com/watch?v=S5Ngh6CFRmc" target="_blank">here</a> to see the tutorial.</u></h4>
         </section>
         <section id="PalakPaneer" class="recipes">
             <h1>Palak Paneer</h1>
             <hr>
             <br>
-            <h2><u>Description</u></h2>
-            A wholesome dish featuring soft paneer cubes in a smooth, vibrant spinach gravy. Lightly spiced and packed with nutrients, it’s a perfect balance of health and taste.
-            <br>
-            <br>
+            
             <h2><u>Ingredients</u></h2>
             <ul>
                 <li>Fresh spinach (palak)</li>
@@ -154,64 +182,12 @@
                 <li>Add a pinch of sugar or cream to balance the slight bitterness.</li>
             </ul>
             <br>
-            <h2><u>Watch this video for help:</u></h2>
+            <h4><u>Click <a href="https://www.youtube.com/watch?v=JI4DtsiYm34" target="_blank">here</a> to see the tutorial.</u></h4>
             <br>
-            <a href="https://www.youtube.com/watch?v=JI4DtsiYm34" target="_blank"><u>Palak Paneer Tutorial</u></a>
-            <!-- <iframe width="560" height="315" src="https://www.youtube.com/watch?v=JI4DtsiYm34"
-                title="YouTube Video Player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
-        </section>
-        <section id="VegBiryani" class="recipes">
-            <h1>Veg Biryani</h1>
-            <hr>
-            <br>
-            <h2><u>Description</u></h2>
-            A fragrant rice dish layered with fresh vegetables, aromatic spices, and herbs. Every bite is rich, flavorful, and beautifully spiced, making it a complete meal on its own.
-            <br>
-            <h2><u>Ingredients</u></h2>
-            <ul>
-                <li>Basmati rice</li>
-                <li>Mixed vegetables (carrot, beans, peas, potato, etc.)</li>
-                <li>Onion (sliced)</li>
-                <li>Tomato</li>
-                <li>Ginger-garlic paste</li>
-                <li>Green chilies</li>
-                <li>Yogurt (curd)</li>
-                <li>Oil or ghee</li>
-                <li>Whole spices: bay leaf, cinnamon, cloves, cardamom</li>
-                <li>Spice powders: turmeric, red chili powder, garam masala or biryani masala</li>
-                <li>Fresh herbs: mint and coriander</li>
-                <li>Salt</li>
-            </ul>
-            <br>
-            <h2><u>Instructions</u></h2>
-            <ol>
-                <li>
-                    Soak basmati rice and cook it until about 70% done, while in another pan you heat oil or ghee and sauté whole spices, sliced onions, ginger-garlic paste, and mixed vegetables until slightly tender and fragrant.
-                </li>
-                <li>Add yogurt and powdered spices, cooking the mixture until it thickens and coats the vegetables well, creating a rich base for layering.</li>
-                <li>Layer the partially cooked rice over the vegetable mixture, top with fresh mint and coriander, cover, and cook on low heat (dum) so the flavors infuse and the rice finishes cooking perfectly.</li>
-            </ol>
-            <br>
-            <h2><u>Tips</u></h2>
-            <ul>
-                <li>Always use partially cooked rice before layering—never fully cooked.</li>
-                <li>Fried onions (birista) on top take it to another level.</li>
-                <li>Seal the lid (with dough or tight cover) during dum for better aroma.</li>
-            </ul>
-            <br>
-            <h2><u>Watch this video for help:</u></h2>
-            <br>
-            <a href="https://www.youtube.com/watch?v=S5Ngh6CFRmc" target="_blank"><u>Veg Biryani Tutorial</u></a>
-            <!-- <iframe width="560" height="315" src="https://www.youtube.com/watch?v=S5Ngh6CFRmc"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
         </section>
     </div>>
     <footer>
-        <p>© 2026 all rights reserved</p>
+        <p>© 2026 All Rights Reserved</p>
     </footer>
 </body>
 
