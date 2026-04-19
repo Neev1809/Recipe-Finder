@@ -232,10 +232,22 @@ footer {
   padding-top: 190px;
   color: white;
 }
+.sides {
+   height: 100vh;
+  background-image: url(sbg.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  padding-top: 190px;
+  color: white;
+
+  
+}
 
 .mocktails {
   height: 100vh;
-  background-image: url(BG-Mocktails.png);
+  background-image: url(mbg.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
