@@ -5,23 +5,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body {
-  background-color: #ffffff; 
-  color: #1c1b1b; 
-}
-
-h1 {
-  margin-bottom: 5px; 
-  color: #398458 !important;
-}
-
-hr {
-  margin-top: 0;
-  color: 444444;
-  border: none;
-  border-top: 2px solid #444444;
-}
-
 nav {
   position: fixed;
   background-color: white;
@@ -98,37 +81,17 @@ nav a:hover {
   align-items: center;
   border: none;
 
-  background: rgb(233, 228, 228);
+  background: white;
   border-radius: 15px;
   box-shadow: 0 5px 15px 3px rgb(146, 146, 146);
 
   transition: 0.3s;
-  padding: 15px;
-}
-
-.entrees-btn {
-  width: 400px;
-  height: 409px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: none;
-
-  background: rgb(233, 228, 228);
-  border-radius: 15px;
-
-  box-shadow: 0 5px 15px 3px rgb(146, 146, 146);
-
-  transition: 0.3s;
-  padding: 15px;
 }
 
 .btn:hover {
   transform: scale(1.1);
-  /* text-decoration: underline;
-  color: darkgreen; */
+  text-decoration: underline;
+  color: darkgreen;
 }
 
 .card {
@@ -138,23 +101,12 @@ nav a:hover {
 }
 
 .btn img {
-  width: 350px;
-  height: 250px;
-  border-radius: 15px; 
+  width: 125px;
+  height: 125px;
+  border-radius: 50%; 
   object-fit: cover;
 
   margin-bottom: 10px;
-}
-
-.btn p {
-  font-size: 15px; 
-}
-
-.divider {
-  width: 100%;
-  height: 1.5px;
-  background-color: #747171;
-  margin: 8px 0;
 }
 
 .buttons {
@@ -218,6 +170,7 @@ footer {
 
 .description p {
   font-size: 25px;
+  line-height: 1.6;
 }
 
 .Explore {
@@ -244,7 +197,7 @@ footer {
 }
 
 .recipes h1{
-  text-align: left;
+  text-align: center;
 }
 
 .appetizers {
@@ -287,9 +240,10 @@ footer {
   background-repeat: no-repeat;
   text-align: left;
   padding-top: 190px;
+  color: white;
   color: black;
 
-  
+
 }
 
 .mocktails {
