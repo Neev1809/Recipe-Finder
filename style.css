@@ -71,7 +71,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
-.nav-btn {
+.btn {
   width: 235px;
   height: 255px;
 
@@ -86,25 +86,6 @@ nav a:hover {
   box-shadow: 0 5px 15px 3px rgb(146, 146, 146);
 
   transition: 0.3s;
-}
-
-.entrees-btn {
-  width: 400px;
-  height: 409px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: none;
-
-  background: rgb(233, 228, 228);
-  border-radius: 15px;
-
-  box-shadow: 0 5px 15px 3px rgb(146, 146, 146);
-
-  transition: 0.3s;
-  padding: 15px;
 }
 
 .btn:hover {
@@ -259,7 +240,6 @@ footer {
   background-repeat: no-repeat;
   text-align: left;
   padding-top: 190px;
-  color: white;
   color: black;
 
 
