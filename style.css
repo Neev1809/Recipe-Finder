@@ -18,6 +18,32 @@ nav {
   justify-content: space-between;
 }
 
+.links {
+  display: flex;
+  gap: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.SearchBox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.SearchBox input {
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: darkgreen;
+}
+
 input {
   width: 150px;
   min-height: 25px;
@@ -194,38 +220,4 @@ footer {
   text-align: center;
   padding-top: 190px;
   color: black;
-}
-.dessert{
-   height: 100vh;
-  background-image: url(des.jpeg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  text-align: left;
-  padding-top: 190px;
-  color: white;
-}
-
-.sides {
-   height: 100vh;
-  background-image: url(sid.jpeg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  text-align: left;
-  padding-top: 190px;
-  color: white;
-
-  
-}
-.mocktails{
-  height: 100vh;
-  background-image: url(moc.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  text-align: left;
-  padding-top: 190px;
-  color: white;
-
 }
