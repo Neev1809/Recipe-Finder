@@ -1,3 +1,7 @@
+@media (max-width: 768px) {
+
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -241,7 +245,7 @@ footer {
   background-repeat: no-repeat;
   text-align: left;
   padding-top: 190px;
-  color: black;
+  color: white;
 }
 
 .Cuisine {
@@ -252,7 +256,7 @@ footer {
   background-repeat: no-repeat;
   text-align: left;
   padding-top: 190px;
-  color: black;
+  color: white;
 }
 
 .Entree {
@@ -274,5 +278,5 @@ footer {
   background-repeat: no-repeat;
   text-align: left;
   padding-top: 190px;
-  color: black;
+  color: white;
 }
