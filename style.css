@@ -1,6 +1,4 @@
-@media (max-width: 768px) {
-
-}
+@media (max-width: 768px) {}
 
 * {
   margin: 0px;
@@ -20,17 +18,26 @@ nav {
   color: darkgreen;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   justify-content: space-between;
+  z-index: 1000;
 }
 
 .links {
+  flex: 1;
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
   gap: 30px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+}
+
+.links img {
+  width: 32px;
+  height: 25px;
 }
 
 .SearchBox {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   align-items: center;
   gap: 8px;
@@ -49,7 +56,7 @@ nav {
 }
 
 input {
-  width: 150px;
+  width: 700px;
   min-height: 25px;
   border-radius: 12.5px;
   border-color: black;
@@ -66,7 +73,7 @@ nav a {
 
 }
 
-nav img{
+nav img {
   width: 25px;
   height: 25px;
 }
@@ -96,18 +103,20 @@ nav a:hover {
   transform: scale(1.1);
   text-decoration: underline;
   color: darkgreen;
+  z-index: 2;
 }
 
 .card {
   display: flex;
   justify-content: center;
   gap: 20px;
+  z-index: 1;
 }
 
 .btn img {
   width: 125px;
   height: 125px;
-  border-radius: 50%; 
+  border-radius: 50%;
   object-fit: cover;
 
   margin-bottom: 10px;
@@ -200,7 +209,7 @@ footer {
   text-decoration: none;
 }
 
-.recipes h1{
+.recipes h1 {
   text-align: center;
 }
 
@@ -279,4 +288,63 @@ footer {
   text-align: left;
   padding-top: 190px;
   color: white;
+}
+
+.login {
+  background-image: url(BG-Login.png);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px; /* prevents navbar overlap */
+}
+
+.login-card {
+  width: 400px;
+  padding: 40px;
+
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+
+  text-align: center;
+}
+
+.login-card h1 {
+  color: darkgreen;
+  margin-bottom: 25px;
+}
+
+.login-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 12px;
+
+  background: darkgreen;
+  color: white;
+
+  border: none;
+  border-radius: 10px;
+
+  cursor: pointer;
 }
