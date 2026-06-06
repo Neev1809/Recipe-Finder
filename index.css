@@ -1,0 +1,193 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  position: fixed;
+  background-color: white;
+  gap: 40px;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  font-size: 20px;
+  color: darkgreen;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+.links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+}
+
+.links img {
+  width: 32px;
+  height: 25px;
+}
+
+.SearchBox {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.SearchBox input {
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: darkgreen;
+}
+
+input {
+  width: 700px;
+  min-height: 25px;
+  border-radius: 12.5px;
+  border-color: black;
+  background-color: white;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  color: darkgreen;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+nav img {
+  width: 25px;
+  height: 25px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  width: 235px;
+  height: 255px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px 3px rgb(146, 146, 146);
+
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+  color: darkgreen;
+  z-index: 2;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  z-index: 1;
+}
+
+.btn img {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding: 75px;
+}
+
+footer {
+  background-color: darkgreen;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.index {
+  height: 100vh;
+  background-image: url(BG-index.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  padding-top: 190px;
+}
+
+.description-text {
+  max-width: 250px;
+  color: black;
+}
+
+.description h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: darkgreen;
+}
+
+.description p {
+  font-size: 25px;
+  line-height: 1.6;
+}
+
+.Explore {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 30px;
+
+  background-color: darkgreen;
+  color: white;
+
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+
+  border-radius: 50px;
+  border: none;
+
+  transition: all 0.3s ease;
+}
+
+.Explore a {
+  color: white;
+  text-decoration: none;
+}
