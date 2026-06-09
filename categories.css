@@ -135,12 +135,108 @@ section {
   padding: 75px;
 }
 
-footer {
-  background-color: darkgreen;
-  padding: 15px;
+.footer-hr {
+  width: 100%;
+  height: 1.5px;
+  background-color: #96b496;
+  margin-top: 0px;
+}
+
+.footer {
+  background-color: #2d5a2d;
+  width: 100%;
+  height: auto;
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px 60px 30px 60px;
+  gap: 160px;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 120px;
+}
+
+.footer-logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: #f0f5d9;
+  font-weight: 700;
+}
+
+.footer-tagline {
+  font-size: 13px;
+  color: #a8c9a8;
+  line-height: 1.6;
+  max-width: 180px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 14px;
+  margin-top: 6px;
+}
+
+.footer-socials a {
+  color: #c8e6c8;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.footer-socials a:hover {
+  color: #f0f5d9;
+  transform: scale(1.2);
+}
+
+.footer-heading {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #f0f5d9;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #a8c9a8;
+  transition: 0.2s;
+}
+
+.footer-links a:hover {
+  color: #f0f5d9;
+}
+
+.footer-bottom {
   text-align: center;
-  color: white;
-  box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  color: #7a9e7a;
+  font-family: "Inter", sans-serif;
+  padding: 16px 60px;
+  border-top: 1px solid #3d6e3d;
 }
 
 .recipes {
