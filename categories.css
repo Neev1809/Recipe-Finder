@@ -343,3 +343,113 @@ section {
   padding-top: 190px;
   color: white;
 }
+
+@media (max-width:480px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .SearchBox {
+    position: static;
+    transform: none;
+    order: 2;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    justify-content: center;
+  }
+
+  .SearchBox input {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  input {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .links {
+    order: 3;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .logo {
+    order: 1;
+  }
+
+  .appetizers {
+    background-image: url("BG-appetizers.png");
+    height: 100vh;
+    padding-top: 150px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .Entree {
+    background-image: url("BG-Entrees.png");
+    height: 100vh;
+    padding-top: 150px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .desserts {
+    background-image: url("BG-Desserts.png");
+    height: 100vh;
+    padding-top: 150px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mocktails {
+    background-image: url("BG-Mocktails.png");
+    height: 100vh;
+    padding-top: 150px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .Meals {
+    background-image: url("BG-Meals.png");
+    height: 100vh;
+    padding-top: 150px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .Cuisine {
+    background-image: url("BG-Cuisines.png");
+    height: 100vh;
+    padding-top: 150px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .diet {
+    background-image: url("BG-Diet.png");
+    height: 100vh;
+    padding-top: 150px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .description {
+    padding-left: 20px;
+    padding-top: 180px;
+  }
+
+  .description h1 {
+    font-size: 32px;
+  }
+
+  .description p {
+    font-size: 16px;
+  }
+}
