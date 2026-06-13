@@ -37,7 +37,7 @@ nav {
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-  align-items: center;
+  align-items: center;  
   gap: 8px;
 }
 
@@ -241,9 +241,9 @@ section {
 
 .index {
   height: 100vh;
-  background-image: url(BG-index.jpeg);
+  background-image: url("BG-index.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   text-align: left;
   padding-top: 190px;
@@ -286,4 +286,88 @@ section {
 .Explore a {
   color: white;
   text-decoration: none;
+}
+
+#suggestions {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  max-height: 250px;
+  overflow-y: auto;
+  z-index: 2000;
+}
+
+.suggestion-item {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.suggestion-item:hover {
+  background-color: #f0f5d9;
+}
+
+@media (max-width:480px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .SearchBox {
+    position: static;
+    transform: none;
+    order: 2;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    justify-content: center;
+  }
+
+  .SearchBox input {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .links {
+    order: 3;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .logo {
+    order: 1;
+  }
+
+  .index {
+    background-image: url("BG-index-phone.jpeg");
+    height: 100vh;
+    padding-top: 150px;
+    background-size: cover;
+  }
+
+  .description {
+    padding-left: 20px;
+    padding-top: 180px;
+  }
+
+  .description h1 {
+    font-size: 32px;
+  }
+
+  .description p {
+    font-size: 16px;
+  }
+
+  .Explore {
+    height: 50px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    padding: 12px 12px;
+  }
 }
