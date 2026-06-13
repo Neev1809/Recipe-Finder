@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="spanakopita.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="Logo.jpeg" alt="Logo">
+            <b>Recipe Finder</b>
+        </div>
+        <div class="SearchBox">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="Search Bar" placeholder="Search for recipe">
+        </div>
+
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="login.html">
+                <img src="user.png" alt="User">
+            </a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="buttons">
+            <div class="left-cards">
+                <button class="recipe-card-main">
+                    <div class="card-top">
+                        <div class="left">
+                            <img src="garlic.jpg" alt="garlic Bread">
+                        </div>
+                        <div class="right">
+                            <div class="header">
+                                <h3>ITALIAN CUISINE</h3>
+                                <h3>VEG</h3>
+                            </div>
+                            <h1>Garlic Bread</h1>
+                            <div class="divider-first"></div>
+                            <p>Warm, crusty bread generously spread with garlicky herb butter and toasted to golden perfection. The ultimate side dish everyone loves!</p>
+                            <div class="divider-second"></div>
+                            <div class="details">
+                                <div class="detail">
+                                    <span class="detail-label"><i class="fa-solid fa-clock" style="color: darkgreen;"></i> Time</span>
+                                    <span class="detail-value">15 mins</span>
+                                </div>
+                                <div class="divider-third"></div>
+                                <div class="detail">
+                                    <span class="detail-label"><i class="fa-solid fa-star" style="color: darkgreen;"></i> Rating</span>
+                                    <span class="detail-value">4.8/5</span>
+                                </div>
+                                <div class="divider-third"></div>
+                                <div class="detail">
+                                    <span class="detail-label"><i class="fa-solid fa-fire" style="color: darkgreen;"></i> Calories</span>
+                                    <span class="detail-value">240 kcal</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider-fourth"></div>
+                    <div class="about-recipe">
+                        <h2>About This Recipe</h2>
+                        <br>
+                        <div class="divider-fifth"></div>
+                        <p>
+                            Garlic Bread is a beloved Italian-inspired side dish that pairs beautifully with pasta, soups, and salads.
+                            A soft baguette or ciabatta is slathered with a fragrant blend of butter, minced garlic, and fresh parsley,
+                            then baked until the edges are irresistibly crispy.
+
+                            Simple to make yet deeply satisfying, garlic bread fills the kitchen with an incredible aroma as it bakes.
+                            Whether served alongside a hearty spaghetti or enjoyed on its own as a snack, it's a recipe that never
+                            disappoints and always disappears first at the table.
+                        </p>
+                    </div>
+                </button>
+
+                <button class="steps">
+                    <h1><i class="fa-solid fa-utensils"></i> Step-by-Step Instructions</h1>
+                    <div class="divider-steps"></div>
+                    <div class="each-step">
+                        <div class="step-number"><h2>1.</h2></div>
+                        <div class="step-content"><p>Preheat the oven to 190°C (375°F). Line a baking tray with foil.</p></div>
+                    </div>
+                    <div class="step-divider"></div>
+                    <div class="each-step">
+                        <div class="step-number"><h2>2.</h2></div>
+                        <div class="step-content"><p>In a bowl, mix softened butter with minced garlic, chopped parsley, a pinch of salt, and optional chilli flakes until well combined.</p></div>
+                    </div>
+                    <div class="step-divider"></div>
+                    <div class="each-step">
+                        <div class="step-number"><h2>3.</h2></div>
+                        <div class="step-content"><p>Slice the baguette diagonally at 2 cm intervals, being careful not to cut all the way through — keep the base intact.</p></div>
+                    </div>
+                    <div class="step-divider"></div>
+                    <div class="each-step">
+                        <div class="step-number"><h2>4.</h2></div>
+                        <div class="step-content"><p>Generously spread the garlic butter into each cut, making sure it reaches deep between the slices.</p></div>
+                    </div>
+                    <div class="step-divider"></div>
+                    <div class="each-step">
+                        <div class="step-number"><h2>5.</h2></div>
+                        <div class="step-content"><p>Wrap the bread loosely in foil and bake for 10 minutes, then open the foil and bake for another 5 minutes until the top is golden and crispy.</p></div>
+                    </div>
+                    <div class="step-divider"></div>
+                    <div class="each-step">
+                        <div class="step-number"><h2>6.</h2></div>
+                        <div class="step-content"><p>Remove from the oven, optionally top with grated cheese, and serve hot immediately.</p></div>
+                    </div>
+                </button>
+            </div>
+
+            <div class="right-cards">
+                <button class="recipe-card-ingredients">
+                    <h1><i class="fa-solid fa-scroll"></i> Ingredients</h1>
+                    <div class="divider-ingredients-first"></div>
+                    <h3>For the Bread</h3>
+                    <ul>
+                        <li>Baguette or Ciabatta</li>
+                        <li>Butter (softened)</li>
+                        <li>Garlic Cloves (minced)</li>
+                        <li>Fresh Parsley (chopped)</li>
+                    </ul>
+                    <div class="divider-ingredients-second"></div>
+                    <h3>For Seasoning</h3>
+                    <ul>
+                        <li>Salt</li>
+                        <li>Chilli Flakes (optional)</li>
+                        <li>Grated Cheese (optional)</li>
+                        <li>Dried Oregano (optional)</li>
+                    </ul>
+                </button>
+
+                <button class="nutrition">
+                    <div class="nutrition-header">
+                        <h1><i class="fa-solid fa-heart-pulse"></i> Nutrition <span class="per-serving">(per 100g)</span></h1>
+                    </div>
+                    <div class="divider-nutrition-first"></div>
+                    <div class="nutrition-row"><span class="nutrition-label">Calories</span><span class="nutrition-value">240 kcal</span></div>
+                    <div class="divider-nutrition"></div>
+                    <div class="nutrition-row"><span class="nutrition-label">Total Fat</span><span class="nutrition-value">11 g</span></div>
+                    <div class="divider-nutrition"></div>
+                    <div class="nutrition-row"><span class="nutrition-label">Carbs</span><span class="nutrition-value">30 g</span></div>
+                    <div class="divider-nutrition"></div>
+                    <div class="nutrition-row"><span class="nutrition-label">Protein</span><span class="nutrition-value">5 g</span></div>
+                    <div class="divider-nutrition"></div>
+                    <div class="nutrition-row"><span class="nutrition-label">Sodium</span><span class="nutrition-value">350 mg</span></div>
+                    <div class="divider-nutrition"></div>
+                    <div class="nutrition-row"><span class="nutrition-label">Cholesterol</span><span class="nutrition-value">25 mg</span></div>
+                    <div class="divider-nutrition"></div>
+                    <div class="nutrition-row"><span class="nutrition-label">Potassium</span><span class="nutrition-value">95 mg</span></div>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
