@@ -341,6 +341,17 @@ section {
   background-repeat: no-repeat;
   text-align: left;
   padding-top: 190px;
+  color: white;
+}
+
+.sides {
+  height: 100vh;
+  background-image: url(BG-Sides.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  padding-top: 190px;
   color: black;
 }
 
@@ -389,7 +400,7 @@ section {
     height: 100vh;
     padding-top: 150px;
     background-size: cover;
-    background-position: center;
+    background-position: 60% center;
   }
 
   .Entree {
@@ -397,7 +408,7 @@ section {
     height: 100vh;
     padding-top: 150px;
     background-size: cover;
-    background-position: center;
+    background-position: 60% center;
   }
 
   .desserts {
@@ -405,7 +416,7 @@ section {
     height: 100vh;
     padding-top: 150px;
     background-size: cover;
-    background-position: center;
+    background-position: 60% center;
   }
 
   .mocktails {
@@ -413,7 +424,7 @@ section {
     height: 100vh;
     padding-top: 150px;
     background-size: cover;
-    background-position: center;
+    background-position: 60% center;
   }
 
   .Meals {
@@ -429,7 +440,7 @@ section {
     height: 100vh;
     padding-top: 150px;
     background-size: cover;
-    background-position: center;
+    background-position: 60% center;
   }
 
   .diet {
@@ -437,7 +448,15 @@ section {
     height: 100vh;
     padding-top: 150px;
     background-size: cover;
-    background-position: center;
+    background-position: 60% center;
+  }
+
+  .sides {
+    background-image: url("BG-Sides.png");
+    height: 100vh;
+    padding-top: 150px;
+    background-size: cover;
+    background-position: 60% center;
   }
 
   .description {
