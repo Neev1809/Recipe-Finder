@@ -10,16 +10,19 @@
 </head>
 
 <body>
-
+    
     <nav>
         <div class="logo">
             <img src="Logo.jpg" alt="Logo">
             <b>Recipe Finder</b>
         </div>
-        
+
         <div class="SearchBox">
             <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" name="Search Bar" placeholder="Search for recipe">
+            <form id="searchForm">
+                <input type="text" id="searchInput" name="Search Bar" placeholder="Search for recipe" autocomplete="off">
+            </form>
+            <div id="suggestions"></div>
         </div>
 
         <div class="links">
@@ -31,6 +34,7 @@
             </a>
         </div>
     </nav>
+
     <div>
         <section class="description index">
             <h1>Recipe Finder</h1>
@@ -45,6 +49,7 @@
                 </a>
             </div>
         </section>
+
         <section id="card" class="card home">
 
             <div class="buttons">
@@ -54,42 +59,49 @@
                         <p>Appetizers</p>
                     </button>
                 </a>
+
                 <a href="entree.html">
                     <button class="btn">
                         <img src="Eentre.jpeg" alt="Entrée">
                         <p>Entrée</p>
                     </button>
                 </a>
+
                 <a href="Desserts.html">
                     <button class="btn">
                         <img src="Desserts.jpeg" alt="Desserts">
                         <p>Desserts</p>
                     </button>
                 </a>
+
                 <a href="Sides.html">
                     <button class="btn">
                         <img src="Sides.jpeg" alt="Sides">
                         <p>Side Dishes</p>
                     </button>
                 </a>
+
                 <a href="Mocktails.html">
                     <button class="btn">
                         <img src="Mocktails.jpeg" alt="Mocktails">
                         <p>Mocktails</p>
                     </button>
                 </a>
+
                 <a href="Meals.html">
                     <button class="btn">
                         <img src="Meals.jpeg" alt="Meals">
                         <p>Meals</p>
                     </button>
                 </a>
+
                 <a href="CuisineBased.html">
                     <button class="btn">
                         <img src="Cuisines.jpeg" alt="Cuisines">
                         <p>Cuisine based</p>
                     </button>
                 </a>
+
                 <a href="Diet.html">
                     <button class="btn">
                         <img src="Diet.jpeg" alt="Diet">
@@ -97,8 +109,10 @@
                     </button>
                 </a>
             </div>
+
         </section>
     </div>
+
     <footer class="footer">
         <div class="footer-inner">
             <div class="footer-col">
@@ -157,10 +171,12 @@
                 </ul>
             </div>
         </div>
+
         <div class="footer-bottom">
             <p>© 2026 Recipe Finder. All rights reserved.</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
