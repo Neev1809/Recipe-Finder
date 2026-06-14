@@ -68,7 +68,6 @@ nav a {
   color: darkgreen;
   text-decoration: none;
   font-size: 20px;
-
 }
 
 nav img {
@@ -93,7 +92,7 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 80px; /* prevents navbar overlap */
+  padding-top: 80px; 
 }
 
 .login-card {
@@ -137,6 +136,14 @@ nav a:hover {
   border-radius: 10px;
 
   cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding: 75px;
 }
 
 .footer-hr {
@@ -241,4 +248,55 @@ nav a:hover {
   font-family: "Inter", sans-serif;
   padding: 16px 60px;
   border-top: 1px solid #3d6e3d;
+}
+
+.login-button a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 480px) {
+  nav {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .SearchBox {
+    position: static;
+    transform: none;
+    order: 2;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    justify-content: center;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2000;
+    background: white;
+    padding: 8px;
+    border-radius: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .SearchBox input {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .links {
+    order: 3;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .logo {
+    order: 1;
+  }
 }
