@@ -17,7 +17,12 @@
         
         <div class="SearchBox">
             <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" name="Search Bar" placeholder="Search for recipe">
+
+            <form id="searchForm">
+                <input type="text" id="searchInput" placeholder="Search for recipe" autocomplete="off">
+            </form>
+
+            <div id="suggestions"></div>
         </div>
 
         <div class="links">
